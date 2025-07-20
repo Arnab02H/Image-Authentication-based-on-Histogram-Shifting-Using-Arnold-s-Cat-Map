@@ -43,23 +43,18 @@ Ensure the following Python libraries are installed:
 ```bash
 pip install numpy opencv-python scipy
 
-## ▶️ Usage
+▶️ Usage
+Run the attack script:
+Open the desired attack notebook (e.g., Attack/Median Blur_3/Average Filtering.ipynb) and run all cells to apply the attack on the images.
 
-**Run the attack script:**  
-Open the desired attack notebook (e.g., `Attack/Median Blur_3/Average Filtering.ipynb`) and run all cells to apply the attack on the images.
+Run the extraction script:
+Open the Without Attack/code no attacks.ipynb notebook and run all cells to extract the watermark from the attacked images.
 
-**Run the extraction script:**  
-Open the `Without Attack/code no attacks.ipynb` notebook and run all cells to extract the watermark from the attacked images.
+🏁 Conclusion
+This project successfully implements a robust image authentication technique using Histogram Shifting and Arnold's Cat Map.
+The method is effective for secure watermark embedding, but its resilience against aggressive attacks can be improved.
 
----
-
-## 🏁 Conclusion
-
-This project successfully implements a robust image authentication technique using **Histogram Shifting** and **Arnold's Cat Map**.  
-The method is effective for secure watermark embedding, but its **resilience against aggressive attacks can be improved**.
-
-## 🙋‍♂️ Maintainer
-
-**Arnab Bera**  
-If you like this project, consider giving it a ⭐️  
+🙋‍♂️ Maintainer
+Arnab Bera
+If you like this project, consider giving it a ⭐️
 For any queries or feedback, feel free to connect.
